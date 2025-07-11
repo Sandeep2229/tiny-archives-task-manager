@@ -2,7 +2,7 @@
 
 A real-time developer tool inspired by code review platforms for managing engineering workflows. Built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**, it supports role-based routing, task status transitions, and optimized performance.
 
-![Demo](./public/demo-screenshot.png)
+
 
 ---
 
