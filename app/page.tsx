@@ -62,12 +62,12 @@ export default function Home() {
     toast.error('Task deleted');
   };
 
-  const updateTaskStatus = (id: number, newStatus: TaskStatus) => {
-    setTasks(tasks.map(task =>
-      task.id === id ? { ...task, status: newStatus } : task
-    ));
-    toast.success(`Status updated to "${newStatus}"`);
-  };
+  // const updateTaskStatus = (id: number, newStatus: TaskStatus) => {
+  //   setTasks(tasks.map(task =>
+  //     task.id === id ? { ...task, status: newStatus } : task
+  //   ));
+  //   toast.success(`Status updated to "${newStatus}"`);
+  // };
 
   const clearCompleted = () => {
     const remaining = tasks.filter(task => !task.completed);
